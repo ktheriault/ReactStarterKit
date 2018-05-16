@@ -1,24 +1,27 @@
 {
-  "name": "ledgie",
-  "version": "1.0.0",
-  "description": "Personal financial management tools",
-  "main": "index.js",
-  "scripts": {
-    "build": "webpack",
-    "start": "webpack-dev-server"
-  },
-  "author": "Kelsey Theriault",
-  "license": "ISC",
-  "dependencies": {
-    "react": "^16.1.1",
-    "react-dom": "^16.1.1"
-  },
-  "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-preset-react": "^6.24.1",
-    "html-webpack-plugin": "^2.30.1",
-    "webpack": "^3.8.1",
-    "webpack-dev-server": "^2.9.4"
-  }
+	"name": "ReactStarterKit",
+	"version": "1.0.0",
+	"description": "Starter kit for React",
+	"main": "index.js",
+	"scripts": {
+		"build": "webpack",
+		"start": "webpack-dev-server"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"react": "^16.3.2",
+		"react-dom": "^16.3.2",
+		"react-redux": "^5.0.7",
+		"redux": "^4.0.0"
+	},
+	"devDependencies": {
+		"babel-core": "^6.26.3",
+		"babel-loader": "^7.1.4",
+		"babel-preset-react": "^6.24.1",
+		"html-webpack-plugin": "^3.2.0",
+		"webpack": "^4.8.3",
+		"webpack-cli": "^2.1.3",
+		"webpack-dev-server": "^3.1.4"
+	}
 }

@@ -1,15 +1,15 @@
 import React, { Component, PropTypes } from "react";
 
-class App extends Component {
+class Example extends Component {
 
     constructor(props) {
         super(props);
     }
 
     render() {
-        return <div>React is running!</div>
+        return null;
     }
 
 };
 
-export default App;
+export default Example;
