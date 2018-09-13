@@ -1,7 +1,7 @@
-import { connect } from 'react-redux';
-import Example from '../components/Example';
+import { connect } from "react-redux";
+import Example from "../components/Example";
 
-const mapStateToProps = () => {
+const mapStateToProps = (state) => {
     return {}
 };
 
